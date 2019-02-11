@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+     <link href="account.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bodystyle">
+<div class="rahmen">
+    <img class="logo_account" src="account.png" alt="Bild" />
+    <img class="logo_boogle" src="booglelogo_neu.png" alt="Bild" />
+    <h4>Boogle-Konto erstellen</h4>
+    <input class="eingabefenster" id="vorname" size="30" title="Vorname" placeholder="Vorname"  required>
+    <input class="eingabefenster" id="nachname" size="40" title="Nachname" placeholder="Nachnamename"  required>
+    <br>
+    <input  class="eingabefenster2" type="email" id="email" size="40" title="Nutzername" placeholder="Nutzername"  required><br><br>
+    <p class="ordnen">Sie können Buchstaben, Ziffern und Punkte verwenden</p><br>
+    <a class="ordnen_linkmail" href="eigene_mail.html">Stattdessen meine aktuelle E-Mail-Adresse verwenden</a><br>
+    <input class="eingabefenster" type="password" id="password" placeholder="Passwort"
+       size="20"  required>
+    <input class="eingabefenster" type="password" id="confirm_password" placeholder="Bestätigen"
+       size="20"  required><br><br>
+    <p class="ordnen">8 oder mehr Zeichen mit einer Mischung aus Buchstaben,<br> Ziffern und Symbolen verwenden</p>
+    <p class="text_rechts">Alle Google-Produkte nutzen – <br> mit nur einem Konto</p>
+    <a class="ordnen_linklogin" href="boogle-index.html">Stattdessen anmelden</a><br>
+    <button>Weiter</button>
+</div>
+<div>
+    <div class="übersetzer_style" id="google_translate_element">
+    <script>
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+    pageLanguage: 'de'
+    }, 'google_translate_element');
+    }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+    <div class="link_platzierung">
+    <a class="link_style" href="help.html">Hilfe</a>
+    <a class="link_style" href="datenschutz.html">Datenschutz</a>
+    <a class="link_style" href="nutzungsbedingungen.html">Nutzungsbedingungen</a>
+    </div>
+</div>
+</body>
+</html>
